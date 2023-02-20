@@ -5,7 +5,6 @@
     isAnswerCorrect: (index) => {
        return ques.correctAnswerIndex===index
     },
-
     getCorrectAnswer: () => {
         return ques.options[ques.correctAnswerIndex]
     }
