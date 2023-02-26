@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>D</title>
+</head>
+<body>
+    <div class="container">
+        <header>Add new books!</header>
+        <p class="para">You can multiple books to your reading list, you can delete them and mark as read</p>
+    <form >
+        <input class="name" type="text" name="name" placeholder="Enter the name of the book!" required> <br>
+        <input class="authorName" type="text" name="authorName" placeholder="Enter the author of the book!" required> <br>
+        <input class="imgurl" type="text" name="imgurl" placeholder="Enter the book img URL" required>
+        <div class="button">
+            <button type="submit">Submit</button>
+        </div>
+  </form>
+    </div>
+      <div>
+        <ul class="books"></ul>
+      </div>
+    <script src="./script.js"></script>
+</body>
+</html>
